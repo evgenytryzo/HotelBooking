@@ -2,3 +2,7 @@
   --dark-blue: #192252;
   --light-grey: #848FAC;
 }
+
+.root {
+  padding-top: 120px;
+}
