@@ -1,0 +1,10 @@
+.lead__title {
+  max-width: 587px;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: var(--dark-blue);
+  margin: 135px 0 24px;
+}

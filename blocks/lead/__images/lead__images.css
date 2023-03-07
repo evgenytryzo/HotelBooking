@@ -1,0 +1,6 @@
+.lead__images {
+  display: grid;
+  column-gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(36, 1fr);
+}

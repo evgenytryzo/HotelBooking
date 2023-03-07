@@ -1,26 +1,117 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>HotelBooking</title>
 
-    <meta name="description" content="Учебный проект">
-    <meta name="keywords" content="html, css, javascript">
-    <meta name="author" content="Глеб Милованов/Евгений Кривов">
+    <meta name="description" content="Учебный проект" />
+    <meta name="keywords" content="html, css, javascript" />
+    <meta name="author" content="Глеб Милованов/Евгений Кривов" />
 
-    <link rel="stylesheet" href="pages/index.css">
-</head>
+    <link rel="stylesheet" href="pages/index.css" />
+  </head>
 
-<body>
+  <body class="root">
     <div class="page">
+      <header class="header">
+        <div class="header__container">
+          <a href="#" class="header__logo">HotelBooking</a>
+          <nav class="header__menu">
+            <ul class="header__links">
+              <li><a href="#" class="header__link">Дома</a></li>
+              <li><a href="#" class="header__link">Бронирование</a></li>
+              <li><a href="#" class="header__link">Контакты</a></li>
+            </ul>
+          </nav>
+          <button class="header__reservation">Бронировать</button>
+        </div>
+      </header>
 
-        <header class="header">
-
-        </header>
-
+      <main class="content">
+        <section class="lead">
+          <div class="lead__text">
+            <h1 class="lead__title">Аренда загородного дома для отдыха</h1>
+            <p class="lead__subtitle">
+              Самые выгодные предложения по аренде коттеджей и загородных домов
+              в Москве и области
+            </p>
+            <button class="lead__button">Бронирование</button>
+          </div>
+          <div class="lead__images">
+            <img
+              class="lead__image lead__image_position_left"
+              src="./images/lead-image-left.jpg"
+              alt="дом"
+            /><img
+              class="lead__image lead__image_position_center"
+              src="./images/lead-image-center.jpg"
+              alt="дом"
+            /><img
+              class="lead__image lead__image_position_right"
+              src="./images/lead-image-right.jpg"
+              alt="дом"
+            />
+          </div>
+        </section>
+        <section class="house">
+          <img
+            src="./images/intro-image.jpg"
+            alt="Двухэтажный дом"
+            class="house__image"
+          />
+          <div class="house__text">
+            <h2 class="house__title">
+              Уютный двухэтажный дом в норвежском стиле
+            </h2>
+            <p class="house__paragraph">
+              Просторные коттеджи с видом на лес полностью укомплектованы:
+              кондиционер, холодильник, посудомоечная машина, газовая плита,
+              духовка, микроволновая печь, чайник, набор посуды и столовых
+              приборов. В каждом коттедже: стиральная машина, гладильная
+              станция, сушилка для белья, фен.
+            </p>
+            <button class="house__button">Подробнее</button>
+          </div>
+        </section>
+        <section class="benefits">
+          <div class="benefit">
+            <div class="benefit__text">
+              <h3 class="benefit__title">Активности</h3>
+              <p class="benefit__paragraph">
+                К вашим услугам наши прекрасные повора, которые приготовят
+                вкусную еду по составленную для вас персональному меню. Также вы
+                сможете воспользоваться СПА, тренажерным залом и прочими
+                услугами, доступными на нашей территории.
+              </p>
+            </div>
+            <img
+              src="./images/benefits-activities-image.jpg"
+              alt="Активности"
+              class="benefit__image"
+            />
+          </div>
+          <div class="benefit">
+            <div class="benefit__text">
+              <h3 class="benefit__title">100% Натуральные продукты</h3>
+              <p class="benefit__paragraph">
+                При приготовлении наших блюд мы используем только свежие,
+                полезные, натуральные продукты.
+              </p>
+            </div>
+            <img
+              src="./images/benefits-food-image.jpg"
+              alt="Еда"
+              class="benefit__image"
+            />
+          </div>
+        </section>
+        <section class="interiors"></section>
+        <section class="reservation"></section>
+        <section class="reviews"></section>
+      </main>
+      <footer class="footer"></footer>
     </div>
-</body>
-
+  </body>
 </html>

@@ -1,1 +1,37 @@
-@import url(./../vendor/normalize.css);
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);
+
+/* lead */
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__images/lead__images.css);
+@import url(../blocks/lead/__image/__image.css);
+@import url(../blocks/lead/__image/_position/lead__image_position_left.css);
+@import url(../blocks/lead/__image/_position/lead__image_position_center.css);
+@import url(../blocks/lead/__image/_position/lead__image_position_right.css);
+
+/* house */
+@import url(../blocks/house/house.css);
+@import url(../blocks/house/__image/house__image.css);
+@import url(../blocks/house/__text/house__text.css);
+@import url(../blocks/house/__title/house__title.css);
+@import url(../blocks/house/__paragraph/house__paragraph.css);
+
+/* benefits */
+@import url(../blocks/benefits/benefits.css);
+
+/* benefit */
+@import url(../blocks/benefit/benefit.css);
+@import url(../blocks/benefit/__title/benefit__title.css);
+@import url(../blocks/benefit/__paragraph/benefit__paragraph.css);
+@import url(../blocks/benefit/__image/benefit__image.css);

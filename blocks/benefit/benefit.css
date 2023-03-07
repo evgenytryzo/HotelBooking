@@ -1,0 +1,11 @@
+.benefit {
+  display: flex;
+  align-items: center;
+  gap: 126px;
+  padding-right: 106px;
+}
+
+.benefit:nth-child(even) {
+  flex-direction: row-reverse;
+  justify-content: end;
+}

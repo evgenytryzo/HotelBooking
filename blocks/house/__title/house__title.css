@@ -1,0 +1,10 @@
+.house__title {
+  margin: 110px 0 28px;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: var(--dark-blue);
+  max-width: 680px;
+}

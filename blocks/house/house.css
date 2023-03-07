@@ -1,0 +1,7 @@
+.house {
+ display: flex;
+ gap: 126px;
+ margin: 0 auto;
+ max-width: 1200px;
+ padding: 100px 0 80px;
+}
