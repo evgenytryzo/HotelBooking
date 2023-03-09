@@ -1,0 +1,10 @@
+.title {
+  font-family: Montserrat;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: var(--dark-blue);
+  margin: 0;
+  text-align: center;
+}

@@ -1,0 +1,6 @@
+.slider__point_active {
+  height: 12px;
+  width: 12px;
+  background-color: #FAB047;
+  border-radius: 6px;
+}

@@ -1,0 +1,6 @@
+.interiors__image-gallery {
+  display: grid;
+  gap: 3px;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(3, auto);
+}
