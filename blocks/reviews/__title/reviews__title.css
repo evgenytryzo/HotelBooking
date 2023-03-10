@@ -1,0 +1,10 @@
+.reviews__title {
+  max-width: 630px;
+  align-self: center;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 150%;
+  font-family: "Montserrat";
+  color: #192252;
+  margin: 0 0 62px 0;
+}

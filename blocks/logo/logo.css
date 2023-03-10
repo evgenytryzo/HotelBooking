@@ -1,8 +1,7 @@
-.header__logo {
+.logo {
   text-decoration: none;
   font-family: Montserrat;
   font-size: 32px;
-  font-weight: 600;
   line-height: 1.22;
   color: var(--dark-blue);
 }

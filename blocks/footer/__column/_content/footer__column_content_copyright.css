@@ -1,0 +1,7 @@
+.footer__column_content_copyright {
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 229px;
+  max-height: 208px;
+  margin: 0 64px 64px 0;
+}

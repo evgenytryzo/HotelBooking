@@ -1,0 +1,7 @@
+.footer {
+  padding: 120px 0;
+  box-sizing: border-box;
+  display: flex;
+  max-width: 1440px;
+  background-color: #0B265A;;
+}
